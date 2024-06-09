@@ -41,7 +41,29 @@ namespace Dungeon
             return totalNPCs;
         }
 
-   
+
+        /// <summary>
+        /// 1. Criar instancia local de INPC
+        /// Associar npc1 ao elemento 0 da lista (primeiro elemento)
+        /// 2. Mesma coisa, só que é um IRoom
+        /// 3. fazer retorno simulataneo em forma de tuplo
+        /// </summary>
+        /// <param name="npc"></param>
+        /// <param name="Tops("></param>
+        /// <returns></returns>
+        public (INPC npc, IRoom room) Tops()
+        {   
+            // 1.
+            INPC npc1;
+            npc1 = npcs[0];
+
+            // 2.
+            IRoom room1;
+            room1 = rooms[0];
+
+            // 3
+            return (npc1,room1);
+        }
 
     }
 

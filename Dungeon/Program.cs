@@ -12,7 +12,7 @@ namespace Dungeon
         /// 3. obter resultado das instancias de Foe
         /// </summary>
         /// <param name="args"></param>
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
 
             // 1. 
