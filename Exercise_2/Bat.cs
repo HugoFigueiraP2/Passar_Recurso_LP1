@@ -14,5 +14,7 @@ namespace Exercise_2
         {
             return base.Sound() + "FrickFrick";
         }
+
+        
     }
 }

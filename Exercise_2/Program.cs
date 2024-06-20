@@ -45,12 +45,12 @@ namespace Exercise_2
 
                 if(current_animal is IMammal)
                 {
-                    Console.Write(" Number of tities: " + (current_animal as IMammal).NumberOfNipples);
+                    Console.Write("Number of tities: " + (current_animal as IMammal).NumberOfNipples);
                 }
 
                 if(current_animal is ICanFly)
                 {
-                    Console.Write(" Number of Wings: " + (current_animal as ICanFly).NumberOfWings);
+                    Console.Write("Number of Wings: " + (current_animal as ICanFly).NumberOfWings);
 
                 }
                 Console.WriteLine();

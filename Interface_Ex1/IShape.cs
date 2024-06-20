@@ -1,15 +1,15 @@
 using System;
 using System.Collections.Generic;
-using System.Dynamic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Exercise_2
+namespace Interface_Ex1
 {
-    public interface IMammal
+    public interface IShape
     {
-        int NumberOfNipples{get;}
+        double GetArea();
 
+        double GetPerimeter();
         
     }
 }
