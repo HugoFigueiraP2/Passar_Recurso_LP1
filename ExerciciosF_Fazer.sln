@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface_Ex1", "Interface_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum_Ex1", "Enum_Ex1\Enum_Ex1.csproj", "{D745CD8A-3522-4954-95BC-FCBA952C09B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum_Ex2", "Enum_Ex2\Enum_Ex2.csproj", "{89A7FAA6-D40A-433E-B60A-29671535674D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{D745CD8A-3522-4954-95BC-FCBA952C09B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D745CD8A-3522-4954-95BC-FCBA952C09B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D745CD8A-3522-4954-95BC-FCBA952C09B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A7FAA6-D40A-433E-B60A-29671535674D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A7FAA6-D40A-433E-B60A-29671535674D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A7FAA6-D40A-433E-B60A-29671535674D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A7FAA6-D40A-433E-B60A-29671535674D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
